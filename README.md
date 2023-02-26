@@ -5,27 +5,27 @@ We implemented many extensions, if you want to know more about them, read the Co
 
 ## To launch the game
 In the play.java file, simply press the play button after putting :
-	*final Game game = new Demo1();  for Demo1
-	*final Game game = new Demo2();	 for Demo2
-	*final Game game = new Enigme(); for Enigme, the "true" game.
+	* final Game game = new Demo1();  for Demo1
+	* final Game game = new Demo2();  for Demo2
+	* final Game game = new Enigme(); for Enigme, the "true" game.
 
 ## Controls :
-	*Press L to interact with you environnement (the tile in front of you), to pick up things, talk to npc and maybe more.
-	*Once you get hold of the Speed Boots, press S to enable the sprint.
+	* Press L to interact with you environnement (the tile in front of you), to pick up things, talk to npc and maybe more.
+	* Once you get hold of the Speed Boots, press S to enable the sprint.
 
 ## How to solve the levels :
 We put the mandatory levels,
-*Level1 -> Nothing to do
+* Level1 -> Nothing to do
 
-*Level2 -> Nothing special, just pickup the Apple
+* Level2 -> Nothing special, just pickup the Apple
 
-*Level3 -> Regular Level3, press all the dots by standing still on them (and admire the animation when
+* Level3 -> Regular Level3, press all the dots by standing still on them (and admire the animation when
 					being switched on), pick up the key, set the torch on fire or activate all levers except the 
 					middle one, then stand still on the pressure plate, the rock will disapear for 3 seconds
 
-*Level4 -> Nothing special, you can pick up money that will be useful for the rest
+* Level4 -> Nothing special, you can pick up money that will be useful for the rest
 
-*Level5, "The three Brothers Tale" -> this one is a little harder. You need to pick up 3 items, 
+* Level5, "The three Brothers Tale" -> this one is a little harder. You need to pick up 3 items, 
 					The Deathly Hallows, to become a master of death and cross the bridge. 
 					1)The first one is the Invisibility Cloak, you will need to find your way in an invisible
 					 Labyrinthe. Look at the Laby1.png (in folder /res from the archive, if needed, take a look 
