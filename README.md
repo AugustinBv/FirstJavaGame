@@ -1,19 +1,19 @@
-README : 
+# First game made using Java in 2018 at EPFL
 
-/!\ We suppressed some backgrounds because we didn't use them and it was lighter this way.
 Welcome to this Mini Projet 2, developped by Hadrien Gerard Ongaro and Augustin Bouveau.
 We implemented many extensions, if you want to know more about them, read the Conception text document.
 
-To launch the game, simply press the play button after putting :
+## To launch the game
+In the play.java file, simply press the play button after putting :
 	-final Game game = new Demo1();  for Demo1
 	-final Game game = new Demo2();	 for Demo2
 	-final Game game = new Enigme(); for Enigme, the "true" game.
 
-Controls :
+## Controls :
 	-Press L to interact with you environnement (the tile in front of you), to pick up things, talk to npc and maybe more.
 	-Once you get hold of the Speed Boots, press S to enable the sprint.
 
-How to solve the levels :
+## How to solve the levels :
 We put the mandatory levels, 	Level1 -> Nothing to do
 
 				Level2 -> Nothing special, just pickup the Apple
