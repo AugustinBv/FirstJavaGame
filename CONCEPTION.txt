@@ -1,0 +1,51 @@
+CONCEPTION :
+
+Here will be explained what we added to the basic program, and how it works.
+
+First, we didn't modify any of the given architecture but created many extensions. We decided to keep the stage four state, and 
+continue on implementing things directly there. We didn't create a new game after stage 4, it's simply "Enigme".
+
+We wanted to base our game on the Harry Potter license, by recreating the three brothers tale, by Beedle the Bard.
+Our fifth level is only dedicated to it. We have to gather the three Deathly Hallows in order to cross the bridge (close enough
+from the real tale). 
+
+In order to achieve this, we created our own map, using the given tools, and took quite some time to modify it (look at the trees, 
+dying near Death). This map is separated in four distinct parts, three different enigmas, and a goal. 
+The first one is an invisible labyrinthe, to get the Invisibility Cloak. 
+The next one is simply pressing dots and using lever to get the Elder Wand.
+The last one is more of a Harry Potter knowledge based enigma, where you have to understand that you need to be "close" to death to 
+find the Resurrection Stone. 
+
+We had to implement many little things, here is a list of them all :
+	-A brand new map, nice and clean, using the given tools.
+
+	-Boots of Speed, Gotta go fast !
+
+	-Running, a new feature simply used by pressing a key after picking up the boots in the level 5. We shortened the animation 
+	duration and ajusted the sprite to the modification.
+
+	-Animation, we animated our player, but didn't have time to implement a Harry Potter sprite. We had to use a sprite sheet and 
+	get every frame of animation mapped to our movement. This can be applied to any sprite sheet (just need to adapt the code a
+	little if the size isn't 4*4), and any entity.
+
+	-Health Points system, in order to solve the third enigma. We can either lose life by standing on a fire, or get it back 
+	by buying a health potion. The health system is solely based on ints increasing or decreasing, to a max of 100 and min of 0.
+
+	-The Harmful Class, a super Class for the objects that can harm the player (only one in this game yet, fire).
+
+	-An economical system. You can pick up money (as much as you want) in Level4, then use this money to buy potions in Level5.
+	(Just like the Health system, this economical system is based on ints increasing and decreasing. You need at least a certain
+	amount to be able to buy a potion, and not have 100 health points too).
+
+	-Gold and Life points are written on screen, we simply used TextGraphics, just like in the first step with the moving rock.
+
+	-Our own sprite, originals, all drawn by Hadrien (just look at the details, it's really incredible) using a few tools.
+
+	-The use of signs to explain some enigmas, you can read them by interacting with them, interactables.
+
+	-Dialogs involving our NPC, the potion seller and Death. We created a new Class for them, While the dialogs are on screen, 
+	your player can't move. We used booleans to verify if the dialogs were played, and then avoid movement.
+
+	-New items, 3 HPCollectables, the Elder Wand, The Invisibility Cloak and the Resurrection Stone (collectables using signals).
+
+	-The cake is a lie. Take this piece of cake to close the programm once you beat it.
